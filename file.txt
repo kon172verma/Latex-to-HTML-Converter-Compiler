@@ -1,0 +1,88 @@
+\documentclass{document}
+
+\usepackage{graphics}
+
+\begin{document}
+
+\section{konark}\label{first:konark}
+this is the first line.
+\subsection{first}\label{first:first}
+this is the first section.
+\subsection{second}\label{first:second}
+this is the second section.
+
+\section{suraj}\label{second:suraj}
+this is the first line.
+\underline{sajeev ji.}
+this is the first line.
+
+\subsection{first}\label{second:first}
+this is the first section.
+\subsection{second}\label{second:second}
+this is the second section.
+
+\section{prashant}\label{third:prashant}
+this is the first line.
+
+\section{gaurav}\label{fourth:gaurav}
+this is the first line.
+\subsection{first}\label{fourth:first}
+this is the first section.
+\subsection{second}\label{fourth:second}
+this is the second section.
+
+\ref{first:konark}
+\ref{first:second}
+\ref{fourth:first}
+\ref{third:prashant}
+
+\par{this is considered to be a string.}
+
+\underline{this is a string that belongs to sajeev ji.}
+\par{this is considered to be a string.}
+
+\textbf{this is a string that belongs to sajeev ji.}
+\textit{this is a string that belongs to sajeev ji.}
+
+\par{this is considered to be a string.}
+
+\begin{itemize}
+\itemkonark
+\itemsuraj
+\itemsaurabh
+\end{itemize}
+
+\includegraphics{universe.jpg}
+
+\begin{enumerate}
+\itemkonark
+\itemsuraj
+\itemsaurabh
+\end{enumerate}
+
+\begin{figure}
+
+\includegraphics{universe.jpg}
+\caption{image first}
+
+\includegraphics{universe.jpg}
+
+\includegraphics{universe.jpg}
+\caption{image third}
+
+\end{figure}
+\begin{tabular}{c|c|c}
+
+\hline
+col1&col2&col3\\
+col4&col5&col6\\
+col7&col8&col9\\
+col&col&col\\
+col&col&col\\
+
+
+\end{tabular}
+
+$$5+8+\sqrt{12}+45*\sum^{12}_{i=1}$$
+
+\end{document}
